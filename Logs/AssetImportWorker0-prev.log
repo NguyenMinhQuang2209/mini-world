@@ -1,0 +1,353 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.27f1 (73effa14754f) revision 7598074'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 16163 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+E:\UnityEditor\2022.3.27f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+F:/Unity_Project/Editor/PC/Offline/2D/Mini World
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50664
+Successfully changed project path to: F:/Unity_Project/Editor/PC/Offline/2D/Mini World
+F:/Unity_Project/Editor/PC/Offline/2D/Mini World
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [14472] Host "[IP] 192.168.0.104 [Port] 0 [Flags] 2 [Guid] 63650847 [EditorId] 63650847 [Version] 1048832 [Id] WindowsEditor(7,MQuang) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [14472] Host "[IP] 192.168.0.104 [Port] 0 [Flags] 2 [Guid] 63650847 [EditorId] 63650847 [Version] 1048832 [Id] WindowsEditor(7,MQuang) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 10.02 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.27f1 (73effa14754f)
+[Subsystems] Discovering subsystems at path E:/UnityEditor/2022.3.27f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/Unity_Project/Editor/PC/Offline/2D/Mini World/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f9d)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   31.0.15.1748
+Initialize mono
+Mono path[0] = 'E:/UnityEditor/2022.3.27f1/Editor/Data/Managed'
+Mono path[1] = 'E:/UnityEditor/2022.3.27f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/UnityEditor/2022.3.27f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56092
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/UnityEditor/2022.3.27f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: E:/UnityEditor/2022.3.27f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: E:/UnityEditor/2022.3.27f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003151 seconds.
+- Loaded All Assemblies, in  0.418 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 2312 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.735 seconds
+Domain Reload Profiling: 3152ms
+	BeginReloadAssembly (109ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (61ms)
+	LoadAllAssembliesAndSetupDomain (200ms)
+		LoadAssemblies (109ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (196ms)
+			TypeCache.Refresh (195ms)
+				TypeCache.ScanAssembly (176ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (2735ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2666ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2439ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (154ms)
+			ProcessInitializeOnLoadMethodAttributes (67ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.779 seconds
+Refreshing native plugins compatible for Editor in 2.75 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.885 seconds
+Domain Reload Profiling: 1664ms
+	BeginReloadAssembly (145ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (558ms)
+		LoadAssemblies (318ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (327ms)
+			TypeCache.Refresh (279ms)
+				TypeCache.ScanAssembly (251ms)
+			ScanForSourceGeneratedMonoScriptInfo (34ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (885ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (624ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (29ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (79ms)
+			ProcessInitializeOnLoadAttributes (407ms)
+			ProcessInitializeOnLoadMethodAttributes (100ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 2.09 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5673 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 101 unused Assets / (0.9 MB). Loaded Objects now: 6119.
+Memory consumption went from 224.8 MB to 223.9 MB.
+Total: 4.490800 ms (FindLiveObjects: 0.517200 ms CreateObjectMapping: 0.260600 ms MarkObjects: 3.224700 ms  DeleteObjects: 0.486000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1382.967242 seconds.
+  path: Assets/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(93b439a37f63240aca3dd4e01d978a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(93b439a37f63240aca3dd4e01d978a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08254b431e78862a1490bbccd82936fe') in 0.017997 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 84.124389 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a4fe85251aa2e89732c359432baa2c3') in 0.000524 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 8.973861 seconds.
+  path: Assets/G_Assets
+  artifactKey: Guid(71779ce5b8d84264da90d0dc615d4919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/G_Assets using Guid(71779ce5b8d84264da90d0dc615d4919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c9aa26fc400dc105d270fa7123a7277') in 0.000507 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.672101 seconds.
+  path: Assets/G_Assets/Local
+  artifactKey: Guid(c8075337fccc5fe47bb728b2157bb78e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/G_Assets/Local using Guid(c8075337fccc5fe47bb728b2157bb78e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63922388d9a4313f3325d7716db43a70') in 0.000546 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 9.430136 seconds.
+  path: Assets/G_Assets/External
+  artifactKey: Guid(dfbe008b3228bb4448d2e8cec873e707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/G_Assets/External using Guid(dfbe008b3228bb4448d2e8cec873e707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa9b7eae2e2109389cdc7db220ef6d95') in 0.000553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 10.196284 seconds.
+  path: Assets/G_Assets/Internal
+  artifactKey: Guid(748689e02ec207a45a7e57af15c14b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/G_Assets/Internal using Guid(748689e02ec207a45a7e57af15c14b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4d06fd034c580521f7785aacfb56181') in 0.000470 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 20.054785 seconds.
+  path: Assets/G_Assets/Local/MiniWorld
+  artifactKey: Guid(4350524ecee79c246a41eea89225049b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/G_Assets/Local/MiniWorld using Guid(4350524ecee79c246a41eea89225049b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e263abcde987fa4c42026335b817b498') in 0.000518 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.759544 seconds.
+  path: Assets/G_Assets/Local/MiniWorld/MiniWorldSprites
+  artifactKey: Guid(b7956a51aafc1ad4eb60f180b1c7c631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/G_Assets/Local/MiniWorld/MiniWorldSprites using Guid(b7956a51aafc1ad4eb60f180b1c7c631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32657a4f644a5895bdf3e939c863d83b') in 0.000496 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.075508 seconds.
+  path: Assets/G_Assets/Local/MiniWorld/MiniWorldSprites/AllAssetsPreview.png
+  artifactKey: Guid(9e6f74cc8c8fdf1419c63d006c6790b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/G_Assets/Local/MiniWorld/MiniWorldSprites/AllAssetsPreview.png using Guid(9e6f74cc8c8fdf1419c63d006c6790b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff4bf401776bbc5eccb19bca18ab702d') in 0.066701 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.076720 seconds.
+  path: Assets/G_Assets/Local/MiniWorld/MiniWorldSprites/Buildings
+  artifactKey: Guid(51a770a4fa7082941a6fa14e88b8dd62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/G_Assets/Local/MiniWorld/MiniWorldSprites/Buildings using Guid(51a770a4fa7082941a6fa14e88b8dd62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '530e87d17511613de775c7203a17c89c') in 0.000575 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 19.480841 seconds.
+  path: Assets/G_Assets/Local/MiniWorld/MiniWorldSprites/Objects
+  artifactKey: Guid(79be929ce794c564da99f9a0f5a7d60a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/G_Assets/Local/MiniWorld/MiniWorldSprites/Objects using Guid(79be929ce794c564da99f9a0f5a7d60a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87e1d7a88ba0c04a28ec0b9958b71b21') in 0.000565 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.994237 seconds.
+  path: Assets/G_Assets/Local/MiniWorld/MiniWorldSprites/Ground
+  artifactKey: Guid(1dd25c8ceeeae97428f2e8b435cab259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/G_Assets/Local/MiniWorld/MiniWorldSprites/Ground using Guid(1dd25c8ceeeae97428f2e8b435cab259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77f95c73f807919ce88face1b493be83') in 0.000518 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.066250 seconds.
+  path: Assets/G_Assets/Local/MiniWorld/MiniWorldSprites/Ground/Cliff.png
+  artifactKey: Guid(7a488bca1b043f74bb9a04702ce3ac27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/G_Assets/Local/MiniWorld/MiniWorldSprites/Ground/Cliff.png using Guid(7a488bca1b043f74bb9a04702ce3ac27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48c5313798fee764d7028bd5515715b5') in 0.029073 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/G_Assets/Local/MiniWorld/MiniWorldSprites/Ground/Winter.png
+  artifactKey: Guid(351ab1389d863ce40b4ab5531dd34f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/G_Assets/Local/MiniWorld/MiniWorldSprites/Ground/Winter.png using Guid(351ab1389d863ce40b4ab5531dd34f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbbbb0b6bb1f9e88c2e2ad09dae1579e') in 0.022493 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/G_Assets/Local/MiniWorld/MiniWorldSprites/Ground/Grass.png
+  artifactKey: Guid(ed4e725539b40cb46b370a2a3dd5e52f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/G_Assets/Local/MiniWorld/MiniWorldSprites/Ground/Grass.png using Guid(ed4e725539b40cb46b370a2a3dd5e52f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afd3021a3534c103599793e846de13dc') in 0.018522 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/G_Assets/Local/MiniWorld/MiniWorldSprites/Ground/Shore.png
+  artifactKey: Guid(5bd08f529c64575448952b23d1d32bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/G_Assets/Local/MiniWorld/MiniWorldSprites/Ground/Shore.png using Guid(5bd08f529c64575448952b23d1d32bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4a0f71fc0986add7236d0f22e0e123f') in 0.016383 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 94.945888 seconds.
+  path: Assets/G_Assets/Local/MiniWorld/MiniWorldSprites/Characters/Champions/Börg.png
+  artifactKey: Guid(540e93613b62b9b45aa117867367c31e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/G_Assets/Local/MiniWorld/MiniWorldSprites/Characters/Champions/Börg.png using Guid(540e93613b62b9b45aa117867367c31e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f9c4a577ffd7e52af77333b5b0390d6') in 0.024428 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/G_Assets/Local/MiniWorld/MiniWorldSprites/Characters/Champions/Grum.png
+  artifactKey: Guid(0fd0c75346bbd8e4d81a2100414b41c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/G_Assets/Local/MiniWorld/MiniWorldSprites/Characters/Champions/Grum.png using Guid(0fd0c75346bbd8e4d81a2100414b41c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e97c7250cd8cc297da036b3cf0d456f8') in 0.022308 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/G_Assets/Local/MiniWorld/MiniWorldSprites/Characters/Champions/Kanji.png
+  artifactKey: Guid(f37c15bb2deb9f44581b9d4f3479fca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/G_Assets/Local/MiniWorld/MiniWorldSprites/Characters/Champions/Kanji.png using Guid(f37c15bb2deb9f44581b9d4f3479fca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76e0dab9eacf20cf4ded6557d20c49ce') in 0.022913 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/G_Assets/Local/MiniWorld/MiniWorldSprites/Characters/Champions/Okomo.png
+  artifactKey: Guid(599d89b452ea6a24aa12295c1122455b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/G_Assets/Local/MiniWorld/MiniWorldSprites/Characters/Champions/Okomo.png using Guid(599d89b452ea6a24aa12295c1122455b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf5169219276f0a80b91da6f236dfe7b') in 0.018859 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
