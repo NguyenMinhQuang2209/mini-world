@@ -11,6 +11,11 @@ public class MouseMovement : MonoBehaviour
     [SerializeField] private float scrollSensitivity = 1f;
     [SerializeField] private float defaultMouseSize = 2f;
     Vector3 mDragPos;
+
+    [Header("Default boundary")]
+    [SerializeField] private bool useDefaultBound = false;
+    [SerializeField] private Vector2 boundXAxis;
+    [SerializeField] private Vector2 boundYAxis;
     private void Start()
     {
         mCamera.orthographicSize = defaultMouseSize;
@@ -32,7 +37,7 @@ public class MouseMovement : MonoBehaviour
             diff.z = 0.0f;
             diff.x *= mouseSensitivity;
             diff.y *= mouseSensitivity;
-            mCamera.transform.position += diff;
+            mCamera.transform.position = ClampCameraAngle(mCamera.transform.position + diff);
         }
 
         float scrollAmount = Input.GetAxis("Mouse ScrollWheel");
@@ -40,10 +45,39 @@ public class MouseMovement : MonoBehaviour
         {
             defaultMouseSize = ClampSize(defaultMouseSize - scrollAmount * scrollSensitivity, zoomMin, zoomMax);
             mCamera.orthographicSize = defaultMouseSize;
+            mCamera.transform.position = ClampCameraAngle(mCamera.transform.position);
         }
     }
     public float ClampSize(float size, float min, float max)
     {
         return Mathf.Clamp(size, min, max);
+    }
+    public Vector3 ClampCameraAngle(Vector3 targetPos)
+    {
+        Vector2 boundXAxis = GetBoundXAxis();
+        Vector2 boundYAxis = GetBoundYAxis();
+
+        float cHeight = mCamera.orthographicSize;
+        float cWidth = mCamera.orthographicSize * mCamera.aspect;
+
+        float newX = Mathf.Clamp(targetPos.x, boundXAxis.x + cWidth, boundXAxis.y - cWidth);
+        float newY = Mathf.Clamp(targetPos.y, boundYAxis.x + cHeight, boundYAxis.y - cHeight);
+        return new(newX, newY, targetPos.z);
+    }
+    public Vector2 GetBoundXAxis()
+    {
+        if (useDefaultBound)
+        {
+            return boundXAxis;
+        }
+        return GenerateMap.instance.GetBoundXAxis();
+    }
+    public Vector2 GetBoundYAxis()
+    {
+        if (useDefaultBound)
+        {
+            return boundYAxis;
+        }
+        return GenerateMap.instance.GetBoundYAxis();
     }
 }

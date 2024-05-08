@@ -133,6 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 482822871}
   - component: {fileID: 482822870}
+  - component: {fileID: 482822872}
   m_Layer: 0
   m_Name: =========Map
   m_TagString: Untagged
@@ -156,8 +157,10 @@ MonoBehaviour:
   mapNoise: {fileID: 2800000, guid: d76c406f65121094a9de41818175e857, type: 3}
   ground: {fileID: 8522623361872630335, guid: c9372b28a3fbd334cb416a41dad2bff2, type: 3}
   water: {fileID: 8163293587597667617, guid: ba134b68a5e72cb40b7ed27ba8568215, type: 3}
-  offsetWidth: 0
-  offsetHeight: 0
+  offsetXPos: 0
+  offsetYPos: 0
+  fromToXAxis: {x: 0, y: -1}
+  fromToYAxis: {x: 0, y: -1}
   foudations: []
   mapSize: {x: 0.158, y: 0.158}
 --- !u!4 &482822871
@@ -175,6 +178,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &482822872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 482822869}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 464794078a00ba545b12802af55f2d66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -460,6 +475,9 @@ MonoBehaviour:
   zoomMax: 4
   scrollSensitivity: 1
   defaultMouseSize: 2
+  useDefaultBound: 0
+  boundXAxis: {x: 0, y: 0}
+  boundYAxis: {x: 0, y: 0}
 --- !u!4 &1238466211
 Transform:
   m_ObjectHideFlags: 0
