@@ -6,6 +6,7 @@ public class GenerateMap : MonoBehaviour
 {
     public static GenerateMap instance;
 
+    [SerializeField] private bool spawnGround = true;
     [SerializeField] private Transform foundation;
     [SerializeField] private Texture2D mapNoise;
     [SerializeField] private GameObject ground;
@@ -55,12 +56,15 @@ public class GenerateMap : MonoBehaviour
                 int index = i * width + j;
                 float gray = pixels[index].r;
                 Vector2 pos = new(i * mapSize.x + offsetXPos, j * mapSize.y + offsetYPos);
-                GameObject obj = ground;
+                GameObject obj = spawnGround ? ground : null;
                 if (gray > 0f)
                 {
                     obj = water;
                 }
-                SpawnObject(obj, pos);
+                if (obj != null)
+                {
+                    SpawnObject(obj, pos);
+                }
             }
         }
     }

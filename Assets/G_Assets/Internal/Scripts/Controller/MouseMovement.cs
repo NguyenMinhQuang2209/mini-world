@@ -16,6 +16,7 @@ public class MouseMovement : MonoBehaviour
     [SerializeField] private bool useDefaultBound = false;
     [SerializeField] private Vector2 boundXAxis;
     [SerializeField] private Vector2 boundYAxis;
+
     private void Start()
     {
         mCamera.orthographicSize = defaultMouseSize;
@@ -47,6 +48,8 @@ public class MouseMovement : MonoBehaviour
             mCamera.orthographicSize = defaultMouseSize;
             mCamera.transform.position = ClampCameraAngle(mCamera.transform.position);
         }
+
+
     }
     public float ClampSize(float size, float min, float max)
     {
